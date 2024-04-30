@@ -1,0 +1,63 @@
+/* The 'stylefoot' external css file styles the footer of the Starbucks website. */
+
+/* Sets the size and position of the footer. */
+footer {
+	margin-top: 980px;
+	width: 1440px;
+	padding-left;
+	height: 500px;
+	border-top: 2px solid #D6D6D6;
+	padding-top: 20px;
+}
+
+/* Positions the columns of the footer side by side. */
+.row {
+	display: flex;
+}
+
+/* Removes the default bullet points from the list items in the column. Adjusting the spacing as well. */
+.column li {
+	list-style: none;
+	font-weight: normal;
+	margin-top: 6px;
+}
+
+/* Sets the size of each column div. */
+.column {
+	width: 200px;
+	height: 200px;
+	margin-left: 35px;
+}
+
+/* Adjusts the socials icons div, adding a a border on top. */	
+.social-icons {
+	margin-left: 35px;
+	border-top: 2px solid #D6D6D6;
+	padding-top: 20px;
+}
+
+/* Styles each social media icon. */
+.ico {
+	color: #ffff;
+	background-color: #212121;
+	border-radius: 50%;
+	padding: 3px 5px;
+}
+
+/* Adjusts the last element of the footer's position. */
+.footerlast {
+	margin-left: 35px;
+}
+
+/* Removes the default bullet points from the list items and adds spacing between each item. */
+.footerlast li {
+	list-style: none;
+	margin-top: 6px;
+	
+}
+
+/* Positions the text to the center bottom of the page. */
+.pfooter {
+	text-align: center;
+	margin-top: 50px;
+}

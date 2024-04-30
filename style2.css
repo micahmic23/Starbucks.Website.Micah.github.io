@@ -1,0 +1,74 @@
+/* The 'style2' css file styles the menu page's html. */
+
+/* Positions the menu page's heading 'Menu' to the center-left. */
+.huh {
+	margin-left: 400px;
+	margin-top: 60px;
+}
+
+/* Sets the menu div's size and position. */
+.menu {
+	width: 770px;
+	height: 1950px;
+	margin-left: 400px;
+	margin-top: 50px;
+	text-align: left;
+}
+
+/* Positions the menu list to the top left of the menu page. */
+.menu-list {
+	margin-top: -2030px;
+	margin-left: 90px;
+	width: 180px;
+}
+
+/* Gets rid of any default bullet points set on the list items off the menu list.
+   Changes the font size, thickness, and position. */
+.menu-list li {
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	
+}
+
+/* Styles the images from the menu. */
+.img1 {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+/* Positions each individual product from the menu div as side by side. */
+.hot {
+	display: flex;
+	align-items:center;
+	width: 350px;
+	height:130px;
+	background-color: #ffff;
+}
+
+/* Creates spacing between the image and the heading.
+   Changing font thickness to normal. */
+.why {
+	margin-left: 20px;
+	font-weight: normal;
+}
+
+/* Positions some of the individual 'hot' elements to the right. */
+.group {
+	margin-left: 420px;
+	margin-top: -304px;
+}
+
+/* Also positions the 'hot' div from the 'At Home Coffee' section to the right. */
+.group1 {
+	margin-left: 420px;
+	margin-top: -152px;
+}
+
+/* Styles each heading category in the menu div. */
+.lini {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #D6D6D6;
+}

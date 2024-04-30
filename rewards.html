@@ -1,0 +1,282 @@
+<!-- The third page called 'rewards' includes all information about the Starbucks rewards promotion offered. It consists of various call to action features. -->
+
+<!-- A command sent to the website's browser regarding the type of HTML performed on the page. -->
+<!DOCTYPE html>
+
+<!-- Allows the page to be created, performed and styled on the web browser. -->
+<html>
+
+	<!-- Identifies the head segment of the HTML web page. This is where the title tag is placed as well as the style and script links.-->
+	<head>
+	
+		<!--  This gives the title name for the html webpage being made e.g. 'Starbucks Website'. -->
+		<title> Starbucks Website </title>
+
+		<!--  Inputs the link needed for the social media icons in the footer later on using the icon toolkit 'Font Awesome'. -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+		<!--  In order to input the font needed for the Starbucks website specifically 'Noto Sans' which is found closest to the official font 'SoDo Sans', a link is embedded to display the font through the font service developed by Google, 'Google fonts'. -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?
+family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!--  External CSS Stylesheets are applied to the html code for the purpose of visually styling and designing the web page. In the 'rewards.html'/'Rewards' page, four external CSS files are used for the purpose of aesthetics. -->
+		<link rel="stylesheet" href="style.css" type="text/css" >
+		<link rel="stylesheet" href="stylefoot.css" type="text/css">
+		<link rel="stylesheet" href="stylefoot2.css" type="text/css">
+		<link rel="stylesheet" href="style3.css" type="text/css">
+	
+	<!-- The head tag is then closed with a slash in the front to operate the head section, in which consists of the CSS code that plays a huge part of the appearance/ aesthetics of the html page. -->
+	</head>
+	
+	<!-- The body tag is used to identify the body/main section of the page. -->
+	<body>
+
+		<!-- The header tag is often acts as a container for the opening content or a collection of navigational elements. -->
+		<header>
+
+			<!-- This section identifies the navigation bar found at the top part of the menu page. -->
+			<nav> 
+			
+				<!-- A div class 'navwlogo' is made to store the navigation links in. -->
+				<div class = "navwlogo">
+			
+					<!-- The Starbucks logo is placed first in the nav bar using its image url and as it is a nav link an a href is used which links to the home page's html file.-->
+					<a href= "index.html"> <img class= "Starbucks" src= "https://cdn.worldvectorlogo.com/logos/starbucks.svg" width= "51px" height= "51px" alt= "logo"> </a>
+			
+					<!-- A ul tag creates each navigation link needed to complete the navigation bar through li tags.-->
+					<ul class= "nav.lnks">
+						<li><a href= "menu.html">MENU</a></li>
+						<li><a href= "rewards.html">REWARDS</a></li>
+						<li><a href= "giftcards.html">GIFT CARDS</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+			<!-- A div class 'navbar.bttns' is made to store the navigation links found in the right side of the nav bar. -->
+  			<div class="navbar.bttns">
+    				<a href="#" class="find-store"><i class="fab fa-location-icon"></i>Find a store</a>
+    				<button type = "button"><a href="signin.html" class="sign-in">Sign in</a>
+    				<button type = "button"><a href="#" class="join-now">Join now</a>
+  			</div>
+			
+		</header>
+		
+		<!-- A div class 'rewards' is made to store the heading 'STARBUCKS® REWARDS'. -->
+		<div class= "rewards">
+			<h5> STARBUCKS® REWARDS </h5>
+		</div>
+
+		<!-- For the call to action feature, an image class is used to display the image. -->
+		<img class= "cta" src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-91747.jpg" alt="Starbucks Star" width="800" height="660">
+
+		<!-- The div class 'greeny' stores the right side of the cta feature. -->
+		<div class= "greeny">
+			<h2> FREE COFFEE<br>IS A TAP AWAY</h2>
+			<br>
+			<p> Join now to start earning Rewards. </p>
+			<br>
+			<button type = "joinnow">Join now</button>
+			<br>
+			<br>
+
+			<!-- A link is created through the a class 'link', displayed as the text 'join in the app'. -->
+			<p>
+				Or
+				<a class= "link" href="https://www.starbucks.com/rewards/mobile-apps">join in the app</a>
+				for the best experience
+			</p>
+			<br>
+		
+
+		<!-- The second div class 'whitey' includes a heading as well as three steps to get rewards. This is done through nested div classes (three divs in one). Links are also placed to be disguised as text. -->
+		<div class= "whitey">
+			<h2>Getting started is easy</h2>
+			<br>
+			<p>Earn Stars and get rewarded in a few easy steps.</p>
+			<br>
+			<br>
+			<div class= "one">
+				<img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-1@2x.jpg" alt="1" width=45px height=45px>
+				<br>
+				<br>
+				<h4>Create an account</h4>
+				<br>
+				<p>To get started,
+					<a class= "link2" href="https://www.starbucks.com/account/create">join now</a>. You can also <a class= "link3" href="https://starbucks.app.link/VLa2I3inh9">join in the app</a> to get access to the full range of Starbucks® Rewards benefits.</p>
+			</div>
+
+			<div class= "two">
+				<img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-2@2x.jpg" alt="2" width=45px height=45px>
+				<br>
+				<br>
+				<h4>Order and pay how you'd like</h4>
+				<br>
+				<p>Use cash, credit/debit card or save some time and pay right through the app. You'll collect Stars all ways.
+					<a class= "link4" href="https://www.starbucks.com/rewards#waystopay">Learn how</a></p>
+			</div>
+
+			<div class= "three">
+				<img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-3@2x.jpg" alt="3" width=45px height=45px>
+				<br>
+				<br>
+				<h4>Earn Stars, get Rewards</h4>
+				<br>
+				<p>As you earn Stars, you can redeem them for Rewards-like free food, drinks, and more. Start redeeming with as little as 25 Stars!</p>
+			</div>
+		</div>
+
+		<!-- The div class 'customizedrink' creates the third content section. This contains an image (img class 'helo') and text (div class 'drinkie') in which includes a heading and small group of text under it. -->
+		<div class= "customizedrink">
+			<img class="helo" src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/25.png" alt="Coffee" width=330px height=200px>
+			<div class="drinkie">	
+				<h2>Customize your drink</h2>
+				<br>
+				<p>Make your drink just right with an extra espresso shot, nondairy milk or a dash of your favorite syrup.</p>
+			</div>
+		</div>
+
+		<!-- The fourth div is similar to the second div class 'whitey'. This also involves a number of divs in one and links displayed as text. -->
+		<div class= "whitey2">
+			<div class= "whiteyx2">
+				<h2>Endless Extras</h2>
+				<br>
+				<p>Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering, tasty Rewards and-yes, free coffee.</p>
+			</div>
+			<br>
+			<br>
+			<div class= "funfreeb">
+				<img src="https://www.starbucks.com/weblx/images/rewards/benefits/1-fun-freebies.jpg" alt="Fun Freebies" width=150px height=150px>
+				<br>
+				<br>
+				<h4>Fun freebies</h4>
+				<br>
+				<p>Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
+				<br>
+				<p><a class= "lili" href="#">Learn more</a></p>
+			</div>
+
+			<div class= "orderpay">
+				<img src="https://www.starbucks.com/weblx/images/rewards/benefits/2-order-and-pay-ahead.jpg" alt="Order & pay ahead" width=150px height=150px>
+				<br>
+				<br>
+				<h4>Order & pay ahead</h4>
+				<br>
+				<p>Enjoy the convenience of in-store, curbside or drive-thru pickup at select stores.</p>
+				<br>
+				<p><a class= "lili" href="#">Learn more</a></p>
+			</div>
+
+			<div class= "getfree">
+				<img src="https://www.starbucks.com/weblx/images/rewards/benefits/3-get-to-free-faster.jpg" alt="Get to free faster" width=150px height=150px>
+				<br>
+				<br>
+				<h4>Get to free faster</h4>
+				<br>
+				<p>Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.</p>
+				<br>
+				<p><a class= "lili" href="#">Learn more</a></p>
+				
+			</div>
+		</div>
+		
+		<!-- A footer tag to create the footer segment of the page. -->
+		<footer> 
+
+			<!-- The div class 'container' stores the elements needed for the footer. -->
+  			<div class = "container">
+
+				<!-- The class 'row' stores each individual column to be styled in a row later on using css. -->
+				<div class = "row">
+		
+					<!-- The class 'column' stores each column element for the footer and is used as the class for all the column elements given. -->
+					<div class = "column">
+    						<h3>About Us</h3>
+	
+						<!-- A ul tag creates each list item needed to complete each column in the footer through li tags.-->
+    						<ul>
+      							<li>Our Company</li>
+      							<li>Our Coffee</li>
+      							<li>Stories and News</li>
+      							<li>Starbucks Archive</li>
+      							<li>Investors Relations</li>
+      							<li>Customer Service</li>
+      							<li>Contact Us</li>
+    						</ul>
+					</div>
+					<div class = "column">
+    						<h3>Careers</h3>
+    						<ul>
+      							<li> Culture and Values </li>
+      							<li>Inclusion, Diversity, and Equity</li>
+      							<li>College Achievement Plan</li>
+      							<li>Alumni Community</li>
+      							<li>Investors Relations</li>
+      							<li>U.S. Careers</li>
+      							<li>International Careers</li>
+    						</ul>
+					</div>
+					<div class = "column">
+    						<h3>Social Impact</h3>
+    						<ul>
+      							<li>People</li>
+      							<li>Planet</li>
+      							<li>Environmental and Social Impact Reporting</li>
+    						</ul>
+					</div>
+					<div class = "column">
+    						<h3>For Business Partners</h3>
+    						<ul>
+      							<li>Landlord Support Center</li>
+      							<li>Suppliers</li>
+      							<li>Corporate Gift Card Sales</li>
+      							<li>Office and Foodservice Coffee</li>
+    						</ul>
+					</div>
+					<div class = "column">
+    						<h3>Order and Pick Up</h3>
+    						<ul>
+      							<li>Order on the App</li>
+      							<li>Order on the Web</li>
+      							<li>Delivery</li>
+      							<li>Order and Pick Up Options</li>
+      							<li>Explore and Find Coffee for Home</li>
+    						</ul>
+					</div>
+				</div>
+  			</div>
+			<br>
+			<br>
+
+			<!-- A div class 'social-icons' stores Starbucks' social media links needed. An 'i class' is used to input the social media icons from the source linked in the 'head' section called 'Font Awesome' using the 'fab fa-' and the icon name.-->
+			<div class="social-icons">
+  				<a class= "ico" href="https://open.spotify.com/user/starbucks" target="_blank"><i class="fab fa-spotify"></i></a>
+  				<a class= "ico" href="https://facebook.com/starbucks" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  				<a class= "ico" href="https://www.pinterest.com/starbucks/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+  				<a class= "ico" href="https://instagram.com/starbucks" target="_blank"><i class="fab fa-instagram"></i></a>
+  				<a class= "ico" href="https://www.youtube.com/starbucks" target="_blank"><i class="fab fa-youtube"></i></a>
+  				<a class= "ico" href="https://twitter.com/starbucks/" target="_blank"><i class="fab fa-twitter"></i></a>
+			</div>
+			<br>
+			<br>
+
+			<!-- Another div class consists a ul class 'footerlast' to store the last segment displayed on the footer.-->
+			<div>
+    				<ul class="footerlast">
+      					<li>Privacy Notice</li>
+      					<li>Consumer Health Privacy Notice</li>
+      					<li>Terms of Use</li>
+					<li>Do Not Share My Personal Information</li>
+					<li>CA Supply Chain Act</li>
+					<li>Accessibility</li>
+					<li>Cookie Preferences</li>
+    				</ul>
+  			</div>
+			<br>
+		</footer>
+
+		<!-- A p class 'pfooter' is used to store the last text element displayed in the index page. -->
+		<p class = "pfooter"> © 2024 Starbucks Coffee Company. All rights reserved. </p>
+	</body>
+</html

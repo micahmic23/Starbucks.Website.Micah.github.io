@@ -1,0 +1,84 @@
+/* In charge of styling the Gift cards page. This includes images being styled on as well as cta features. */
+
+/* Sets the position, size and spacing of the elements inside 'top'. */
+.top {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	width:1440px;
+	height:40px;	
+	letter-spacing: 1px;
+}
+
+/* Sets the position to the left. */
+.feat {
+	margin-left:80px
+}
+
+/* Sets the position to the right and its color to green. */
+.see {
+	text-align: right;
+	margin-right: 20px;
+	color: #32754B
+}
+
+/* Creates spacing in between the gift card images. */
+.imgg {
+	margin-left: 80px;
+	justify-content: space-between;	
+}
+
+/* Sets the position, size, shape, and style of the images being displayed. */
+.im {
+	margin-left: 10px;
+	width: 304px;
+	height: 204px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+/* Sets the position, size, shape, and the color of the div 'egifts'. */
+.egifts {
+	display: flex;
+	margin-left: 90px;
+	padding: 35px;
+	width: 1200px;
+	height: 90px;
+	border-radius: 8px;
+	background-color: #EDEBE9;
+}
+
+/* Sets the position and size of the first image inside 'egifts' to the left. */
+.card {
+	padding-bottom: 60px;
+	padding-right: 20px;
+	width: 100px; 
+	height: 98px;
+}
+
+/* Sets the position of the elements side by side centered along the div.
+   It also sets the size and color. */
+.received {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	padding-left: 90px;
+	width: 1440px;
+	height: 115px;
+	background-color: #D4E9E2;
+}
+
+/*  Re-positioning the text to the left. */
+.earn {
+	padding-left: 6px;
+}
+
+/* Sets the position, size, and color of the div 'cardeu'. */
+.cardeu {
+	padding: 40px;
+	padding-left: 90px;
+	width: 1440px;
+	height: 200px;
+	background-color: #EDEBE9;
+}

@@ -1,0 +1,28 @@
+/* Another css file for the footer, in order to readjust the position of the reward page's footer. */
+
+footer {
+	margin-left: -200px;
+}
+
+.ico {
+	color: #ffff;
+	background-color: #212121;
+	border-radius: 50%;
+	padding: 3px 5px;
+}
+
+.pfooter {
+	margin-left: 220px;
+	margin-top: 50px;
+	width: 600px;
+}
+
+.column li {
+	font-weight: normal;
+	margin-top: 6px;
+}
+
+.footerlast li {
+	margin-top: 6px;
+	
+}
