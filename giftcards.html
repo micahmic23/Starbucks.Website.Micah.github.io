@@ -1,0 +1,278 @@
+<!-- The fourth page 'Gift cards' contains a series of images using image tags (img) to display these and call to action features. -->
+
+<!-- A command sent to the website's browser regarding the type of HTML performed on the page. -->
+<!DOCTYPE html>
+
+<!-- Allows the page to be created, performed and styled on the web browser. -->
+<html>
+
+	<!-- Identifies the head segment of the HTML web page. This is where the title tag is placed as well as the style and script links.-->
+	<head>
+
+		<!--  This gives the title name for the html webpage being made e.g. 'Starbucks Website'. -->
+		<title> Starbucks Website </title>
+
+		<!--  Inputs the link needed for the social media icons in the footer later on using the icon toolkit 'Font Awesome'. -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+		<!--  In order to input the font needed for the Starbucks website specifically 'Noto Sans' which is found closest to the official font 'SoDo Sans', a link is embedded to display the font through the font service developed by Google, 'Google fonts'. -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!--  External CSS Stylesheets are applied to the html code for the purpose of visually styling and designing the web page. In the 'giftcards.html'/'Gift cards' page, three external CSS files are used for the purpose of aesthetics. -->
+		<link rel="stylesheet" href="style.css" type="text/css" >
+		<link rel="stylesheet" href="stylefoot.css" type="text/css">
+		<link rel="stylesheet" href="style4.css" type="text/css">
+	</head>
+
+	<!-- The body tag is used to identify the body/main section of the page. -->
+	<body>
+
+		<!-- The header tag is often acts as a container for the opening content or a collection of navigational elements. -->
+		<header>
+
+			<!-- This section identifies the navigation bar found at the top part of the menu page. -->
+			<nav> 
+
+				<!-- A div class 'navwlogo' is made to store the navigation links in. -->
+				<div class = "navwlogo">
+
+					<!-- The Starbucks logo is placed first in the nav bar using its image url and as it is a nav link an a href is used which links to the home page's html file.-->
+					<a href= "index.html"> <img class= "Starbucks" src= "https://cdn.worldvectorlogo.com/logos/starbucks.svg" width= "51px" height= "51px" alt= "logo"> </a>
+			
+					<!-- A ul tag creates each navigation link needed to complete the navigation bar through li tags.-->
+					<ul class= "nav.lnks">
+						<li><a href= "menu.html">MENU</a></li>
+						<li><a href= "rewards.html">REWARDS</a></li>
+						<li><a href= "giftcards.html">GIFT CARDS</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+			<!-- A div class 'navbar.bttns' is made to store the navigation links found in the right side of the nav bar. -->
+  			<div class="navbar.bttns">
+    				<a href="https://www.google.com/maps" target="_blank" class="find-store"><i class="fab fa-location-icon"></i>Find a store</a>
+    				<button type = "button"><a href="signin.html" class="sign-in">Sign in</a>
+    				<button type = "button"><a href="https://www.starbucks.com/account/create" target="_blank" class="join-now">Join now</a>
+  			</div>
+			
+		</header>
+		<br>
+
+		<!-- The class 'top' is created to style the headings accordingly. -->
+		<div class="top">
+			<h4 class="feat"> FEATURED </h4>
+			<h4 class="see"> See all </h4>
+		</div>
+		<br>
+
+		<!-- The div class 'imgg' is applied throughout the images displayed. This is done so that the same class can be used to perform the same CSS on all the images given.-->
+		<div class="imgg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy24/SpringTulipsFY24.png">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy23/GreatWorkDeservesCoffeeFY23.jpg">
+			<img class="im"src="https://globalassets.starbucks.com/digitalassets/cards/fy24/ConfettiCelebrationFY24.jpg">
+			<img class="im"src="https://globalassets.starbucks.com/digitalassets/cards/fy24/AboveBeyondFY24.png">
+		</div>
+		<br>
+		<br>
+
+		<!-- The class 'egifts' creates an information section. This includes an image with text on the right. -->
+		<div class="egifts">
+			<img class="card" src="https://www.starbucks.com/weblx/images/gift/group-gift-cards.png">
+			<h4 class="new"> New! Effortlessly send up to 10 eGifts per purchase. Select a design to start!</h4>
+		</div>
+		<br>
+
+		<!-- The class 'received' is assigned to creating a call to action feature. This consists of text as well as button and text links. -->
+		<div class="received">
+			<h3>Received a gift card?</h3>
+			<p class="earn">Earns 2★ per $1</p>
+			<br>
+			<button class="Add"><a href= "#">Add or Reload</a></button>
+			<button class="check"><a href= "#">Check balance</a></button>
+			<br>
+			<h4><a class="terms" href="https://www.starbucks.com/terms/manage-gift-cards/">Card Terms & Conditions</a>
+			</h4>
+		</div>
+		<br>
+		<div class="top">
+			<h4 class="feat"> BIRTHDAY </h4>
+			<h4 class="see"> See all </h4>
+		</div>
+		<br>
+		<div class="imgg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy24/BirthYayBalloonsFY24.png">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy24/BirthdayCakeFY24.jpg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy23/PartyBirthdayFY23.jpg">
+			<img class="im"src="https://globalassets.starbucks.com/digitalassets/cards/fy22/BirthYayFY22.jpg">
+		</div>
+		<br>
+		<br>
+		<div class="top">
+			<h4 class="feat"> THANK YOU </h4>
+			<h4 class="see"> See all </h4>
+		</div>
+		<br>
+		<div class="imgg">
+			<img class="im"src="https://globalassets.starbucks.com/digitalassets/cards/fy24/MyTreatFY24.jpg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy24/SparkleThankYouFY24.png">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy22/BigThankYouFY22.jpg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy20/ThisOnesOnMeFY20.jpg">
+		</div>
+		<br>
+		<br>
+		<div class="top">
+			<h4 class="feat"> CELEBRATION </h4>
+			<h4 class="see"> See all </h4>
+		</div>
+		<br>
+		<div class="imgg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy24/ConfettiCelebrationFY24.jpg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy23/WoohooFY23.jpg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy23/KeepCrushinItFY23.jpg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy24/AwwwwwYeaFY24.png">
+		</div>
+		<br>
+		<br>
+		<div class="top">
+			<h4 class="feat">SPRING</h4>
+		</div>
+		<br>
+		<div class="imgg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy24/SpringTulipsFY24.png">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy23/SpringSeasonalFY23.png">
+		</div>
+		<br>
+		<br>
+		<div class="top">
+			<h4 class="feat">APPRECIATION</h4>
+		</div>
+		<br>
+		<div class="imgg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy24/AllYouDoFY24.png">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy23/YouAmazeMeFY23.jpg">
+			<img class="im" src="https://globalassets.starbucks.com/digitalassets/cards/fy23/YoureJustTheBestFY23.jpg">
+		</div>
+		<br>
+		<br>
+
+		<!-- Another call to action/information section is displayed using the class 'cardeu'. The section consists of text and button links. -->
+		<div class="cardeu">
+			<h3> GIFT CARD SUPPORT </h3>
+			<br>
+			<p class="uu">Use the links below to manage eGifts you have sent or received, or view our full Card Terms & Conditions.</p>
+			<br>
+			<button class="e"><a href= "#">eGift Support</a></button>
+			<button class="se"><a href= "#">See Terms & Conditions</a></button>
+			<button class="faq"><a href= "#">eGift FAQs</a></button>
+		</div>
+		
+		<!-- A footer tag to create the footer segment of the page. -->	
+		<footer> 
+
+			<!-- The div class 'container' stores the elements needed for the footer. -->
+  			<div class = "container">
+
+				<!-- The class 'row' stores each individual column to be styled in a row later on using css. -->
+				<div class = "row">
+				
+					<!-- The class 'column' stores each column element for the footer and is used as the class for all the column elements given. -->
+					<div class = "column">
+    						<h3>About Us</h3>
+
+						<!-- A ul tag creates each list item needed to complete each column in the footer through li tags.-->
+    						<ul>
+      							<li><a href= "#">Our Company</a></li>
+      							<li><a href= "#">Our Coffee</a></li>
+      							<li><a href= "#">Stories and News</a></li>
+      							<li><a href= "#">Starbucks Archive</a></li>
+      							<li><a href= "#">Investors Relations</a></li>
+      							<li><a href= "#">Customer Service</a></li>
+      							<li><a href= "#">Contact Us</a></li>
+    						</ul>
+					</div>
+
+					<!-- The class 'column' stores each column element for the footer and is used as the class for all the column elements given. -->
+					<div class = "column">
+    						<h3>Careers</h3>
+
+						<!-- A ul tag creates each list item needed to complete each column in the footer through li tags.-->
+    						<ul>
+      							<li><a href= "#">Culture and Values</a></li>
+      							<li><a href= "#">Inclusion, Diversity, and Equity</a></li>
+      							<li><a href= "#">College Achievement Plan</a></li>
+      							<li><a href= "#">Alumni Community</a></li>
+      							<li><a href= "#">Investors Relations</a></li>
+      							<li><a href= "#">U.S. Careers</a></li>
+      							<li><a href= "#">International Careers</a></li>
+    						</ul>
+					</div>
+
+					<div class = "column">
+    						<h3>Social Impact</h3>
+    						<ul>
+      							<li><a href= "#">People</a></li>
+      							<li><a href= "#">Planet</a></li>
+      							<li><a href= "#">Environmental and Social Impact Reporting</a></li>
+    						</ul>
+					</div>
+
+					<div class = "column">
+    						<h3>For Business Partners</h3>
+    						<ul>
+      							<li><a href= "#">Landlord Support Center</a></li>
+      							<li><a href= "#">Suppliers</a></li>
+      							<li><a href= "#">Corporate Gift Card Sales</a></li>
+      							<li><a href= "#">Office and Foodservice Coffee</a></li>
+    						</ul>
+					</div>
+
+					<div class = "column">
+    						<h3>Order and Pick Up</h3>
+    						<ul>
+      							<li><a href= "#">Order on the App</a></li>
+      							<li><a href= "#">Order on the Web</a></li>
+      							<li><a href= "#">Delivery</a></li>
+      							<li><a href= "#">Order and Pick Up Options</a></li>
+      							<li><a href= "#">Explore and Find Coffee for Home</a></li>
+    						</ul>
+					</div>
+				</div>
+  			</div>
+			<br>
+			<br>
+			<br>
+			
+
+			<!-- A div class 'social-icons' stores Starbucks' social media links needed. An 'i class' is used to input the social media icons from the source linked in the 'head' section called 'Font Awesome' using the 'fab fa-' and the icon name.-->
+			<div class="social-icons">
+  				<a class= "ico" href="https://open.spotify.com/user/starbucks" target="_blank"><i class="fab fa-spotify"></i></a>
+  				<a class= "ico" href="https://facebook.com/starbucks" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  				<a class= "ico" href="https://www.pinterest.com/starbucks/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+  				<a class= "ico" href="https://instagram.com/starbucks" target="_blank"><i class="fab fa-instagram"></i></a>
+  				<a class= "ico" href="https://www.youtube.com/starbucks" target="_blank"><i class="fab fa-youtube"></i></a>
+  				<a class= "ico" href="https://twitter.com/starbucks/" target="_blank"><i class="fab fa-twitter"></i></a>
+			</div>
+			<br>
+			<br>
+
+			<!-- Another div class consists a ul class 'footerlast' to store the last segment displayed on the footer.-->
+			<div>
+    				<ul class="footerlast">
+      					<li><a href= "#">Privacy Notice</a></li>
+      					<li><a href= "#">Consumer Health Privacy Notice</a></li>
+      					<li><a href= "#">Terms of Use</a></li>
+					<li><a href= "#">Do Not Share My Personal Information</a></li>
+					<li><a href= "#">CA Supply Chain Act</a></li>
+					<li><a href= "#">Accessibility</a></li>
+					<li><a href= "#">Cookie Preferences</a></li>
+    				</ul>
+  			</div>
+			<br>
+		</footer>
+
+		<!-- A p class 'pfooter' is used to store the last text element displayed in the index page. -->
+		<p class = "pfooter"> © 2024 Starbucks Coffee Company. All rights reserved. </p>
+	</body>
+</html
