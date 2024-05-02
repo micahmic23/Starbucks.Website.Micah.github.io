@@ -1,0 +1,268 @@
+<!-- This html page includes everything displayed in the home page of Starbucks. This includes call to action features throughout the page. For the sake of navigating through one page to another, the navigation bar is kept throughout the whole website and the footer as well.-->
+
+<!-- A command sent to the website's browser regarding the type of HTML performed on the page. -->
+<!DOCTYPE html>
+
+<!-- Allows the page to be created, performed and styled on the web browser. -->
+<html>
+
+	<!-- Identifies the head segment of the HTML web page. This is where the title tag is placed  as well as the style and script links.-->
+	<head>
+
+		<!--  This gives the title name for the html webpage being made e.g. 'Starbucks Website'. -->
+		<title> Starbucks Website </title>
+		
+		<!--  Inputs the link needed for the social media icons in the footer later on using the icon toolkit 'Font Awesome'. -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+		<!--  In order to input the font needed for the Starbucks website specifically 'Noto Sans' which is found closest to the official font 'SoDo Sans', a link is embedded to display the font through the font service developed by Google, 'Google fonts'. -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!--  External CSS Stylesheets are applied to the html code for the purpose of visually styling and designing the web page. In the 'index.html'/'Home' page, two external CSS files are used for the purpose of aesthetics. -->
+		<link rel="stylesheet" href="style.css" type="text/css" >
+		<link rel="stylesheet" href="stylefoot.css" type="text/css">
+	
+	<!-- The head tag is then closed with a slash in the front to operate the head section, in which consists of the CSS code that plays a huge part of the appearance/ aesthetics of the html page. -->
+		<!-- An internal JavaScript code is applied using a script tag within the head section. This is applied to create a 'know your location' feature that asks the user to share their location. -->
+		<script>
+			const successCallback = (position) => {
+				console.log(position);
+			};
+
+			const errorCallback = (error) => {
+				console.error(error);
+			};
+
+		 	navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+		</script>
+	</head>
+
+	<!-- The body tag is used to identify the body/main section of the page. -->
+	<body>
+
+		<!-- The header tag is often acts as a container for the opening content or a collection of navigational elements. -->
+		<header> 
+
+			<!-- This section identifies the navigation bar found at the top part of the home/index page. -->
+			<nav>
+
+				<!-- A div class 'navwlogo' is made to store the navigation links in. -->
+				<div class = "navwlogo">
+
+					<!-- The Starbucks logo is placed first in the nav bar using its image url and as it is a nav link an a href is used which links to the home page's html file.-->
+					<a href= "index.html"> <img class= "Starbucks" src= "https://cdn.worldvectorlogo.com/logos/starbucks.svg" width= "51px" height= "51px" alt= "logo"></a>
+			
+					<!-- A ul tag creates each navigation link needed to complete the navigation bar through li tags.-->
+					<ul class= "nav.lnks">
+						<li><a href= "menu.html">MENU</a></li>
+						<li><a href= "rewards.html">REWARDS</a></li>
+						<li><a href= "giftcards.html">GIFT CARDS</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+			
+			<!-- A div class 'navbar.bttns' is made to store the navigation links found in the right side of the nav bar. -->
+  			<div class="navbar.bttns">
+    				<a href="https://www.google.com/maps" target="_blank" class="find-store"><i class="fab fa-location-icon"></i>Find a store</a>
+    				<button type = "button"><a href="signin.html" class="sign-in">Sign in</a>
+    				<button type = "button"><a href="https://www.starbucks.com/account/create" target="_blank" class="join-now">Join now</a>
+  			</div>
+			
+		</header>
+		
+		<!-- An image link is placed within the img src tag to display the image in beside the div class "blue". -->
+		<img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-89566.jpg" alt="Three red, cold drinks with pieces of fruit in them. The shade of red progresses from pink to orange." 	width="740" height="600">
+		
+		<!-- A div class 'blue' is where the first 'call to action' prompt is created displayed next to the image above. A 'call to action'/cta typically consists of a 'order now'/'learn more' button/hyperlink. -->
+		<div class = "blue">
+			<h1> Absolutely no chill </h1>
+		
+			<!-- Breaks/spaces elements/text. -->
+			<br> 
+			<h4> New Spicy Lemonade Refreshers® with real fruit and our three-pepper chili blend are coming in hot. </h2>
+			<br>
+			<button type = "button">Order Now</button>
+		</div>
+
+		<!-- An image link is placed within the img src tag to display the image in beside the div class "green". -->
+		<img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-89441.jpg" alt="An illustration of three reusable cups—a pink hot cup, a green tumbler with a straw, and a light green travel mug—in the middle of a circle arrow." width="700" height="440">
+
+		<!-- A div class 'green' is where the second 'call to action' prompt is created displayed next to the image above. A 'call to action'/cta typically consists of a 'order now'/'learn more' button/hyperlink. -->
+		<div class = "green">
+			<h2> Personal cups for good </h1>
+		
+			<!-- Breaks/spaces elements/text. -->
+			<br> 
+			<h6> Your choice is a positive and responsible one-because bringing your clean reusable cup helps our planet. </h2>
+			<br> 
+			<button type = "button">Learn more</button>
+		</div>
+	
+		<!-- An image link is placed within the img src tag to display the image in beside the div class "pink". -->
+		<img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-89444.jpg" alt="Two cold coffee drinks, each with a thick, foamy topping." 	width="740" height="600">
+
+		<!-- A div class 'pink' is where the third 'call to action' prompt is created displayed next to the image above. A 'call to action'/cta typically consists of a 'order now'/'learn more' button/hyperlink. -->
+		<div class = "pink">
+			<h1> Find your bliss </h1>
+
+			<!-- Breaks/spaces elements/text. -->
+			<br> 
+			<h5> Enjoy a super-smooth Chocolate Cream Cold Brew or Cinnamon Caramel Cream Cold Brew. </h2>
+			<br> 
+			<button type = "button">Order now</button>
+		</div>
+
+		<!-- An image link is placed within the img src tag to display the image in beside the div class "yellow". -->
+		<img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-89536.jpg" alt="Plant-based sausage patty with egg and cheese sandwiched in a bun." 	width="700" height="600">
+
+		<!-- A div class 'yellow' is where the fourth 'call to action' prompt is created displayed next to the image above. A 'call to action'/cta typically consists of a 'order now'/'learn more' button/hyperlink. -->
+		<div class = "yellow">
+			<h1> Satisfying anytime </h1>
+
+			<!-- Breaks/spaces elements/text. -->
+			<br> 
+			<h5> Grab a hearty Impossible™ Breakfast Sandwich with an Impossible Sausage Patty made from plants.** </h2>
+			<br> 
+			<button type = "button">Order now</button>
+		</div>
+
+		<!-- An image link is placed within the img src tag to display the image in beside the div class "lavender". -->
+		<img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-89263.jpg" alt="Two round, fluffy egg bites." width="740" height="600"> 
+
+		<!-- A div class 'lavender' is where the fifth 'call to action' prompt is created displayed next to the image above. A 'call to action'/cta typically consists of a 'order now'/'learn more' button/hyperlink. -->
+	  	<div class = "lavender">
+			<br> 
+			<h1> Go for goodness </h1>
+
+			<!-- Breaks/spaces elements/text. -->
+			<br> 
+			<h5> High in protein, our vegetarian Egg White & Roasted Red Pepper Egg Bites are the perfect take-along with 170 calories per serving. </h2>
+			<br> 
+			<button type = "button">Order now</button>
+		</div>
+		
+		<br>
+		<br>
+		<br>
+
+		<!-- A section class 'info' tag stores a specific section of 'p tag' texts. -->
+		<section class= "info">
+			<p> *Valid at participating stores on beverage purchases only (max 3x per day). </p>
+	
+			<!-- Breaks/spaces elements/text. -->
+			<br>
+			<br>
+			<p> **Impossible is a trademark of Impossible Foods Inc. Used under license. </p>
+ 		</section>
+
+		<!-- A footer tag to create the footer segment of the page. -->
+		<footer> 
+
+			<!-- The div class 'container' stores the elements needed for the footer. -->
+  			<div class = "container">
+	
+				<!-- The class 'row' stores each individual column to be styled in a row later on using css. -->
+				<div class = "row">
+
+					<!-- The class 'column' stores each column element for the footer and is used as the class for all the column elements given. -->
+					<div class = "column">
+    						<h3>About Us</h3>
+
+						<!-- A ul tag creates each list item needed to complete each column in the footer through li tags.-->
+    						<ul>
+      							<li>Our Company</li>
+      							<li>Our Coffee</li>
+      							<li>Stories and News</li>
+      							<li>Starbucks Archive</li>
+      							<li>Investors Relations</li>
+      							<li>Customer Service</li>
+      							<li>Contact Us</li>
+    						</ul>
+					</div>
+
+					<!-- The class 'column' stores each column element for the footer and is used as the class for all the column elements given. -->
+					<div class = "column">
+    						<h3>Careers</h3>
+
+						<!-- A ul tag creates each list item needed to complete each column in the footer through li tags.-->
+    						<ul>
+      							<li> Culture and Values </li>
+      							<li>Inclusion, Diversity, and Equity</li>
+      							<li>College Achievement Plan</li>
+      							<li>Alumni Community</li>
+      							<li>Investors Relations</li>
+      							<li>U.S. Careers</li>
+      							<li>International Careers</li>
+    						</ul>
+					</div>
+
+					<div class = "column">
+    						<h3>Social Impact</h3>
+    						<ul>
+      							<li>People</li>
+      							<li>Planet</li>
+      							<li>Environmental and Social Impact Reporting</li>
+    						</ul>
+					</div>
+
+					<div class = "column">
+    						<h3>For Business Partners</h3>
+    						<ul>
+      							<li>Landlord Support Center</li>
+      							<li>Suppliers</li>
+      							<li>Corporate Gift Card Sales</li>
+      							<li>Office and Foodservice Coffee</li>
+    						</ul>
+					</div>
+
+					<div class = "column">
+    						<h3>Order and Pick Up</h3>
+    						<ul>
+      							<li>Order on the App</li>
+      							<li>Order on the Web</li>
+      							<li>Delivery</li>
+      							<li>Order and Pick Up Options</li>
+      							<li>Explore and Find Coffee for Home</li>
+    						</ul>
+					</div>
+				</div>
+  			</div>
+			<br>
+			<br>
+
+			<!-- A div class 'social-icons' stores Starbucks' social media links needed. An 'i class' is used to input the social media icons from the source linked in the 'head' section called 'Font Awesome' using the 'fab fa-' and the icon name.-->
+			<div class="social-icons">
+  				<a class= "ico" href="https://open.spotify.com/user/starbucks" target="_blank"><i class="fab fa-spotify"></i></a>
+  				<a class= "ico" href="https://facebook.com/starbucks" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  				<a class= "ico" href="https://www.pinterest.com/starbucks/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+  				<a class= "ico" href="https://instagram.com/starbucks" target="_blank"><i class="fab fa-instagram"></i></a>
+  				<a class= "ico" href="https://www.youtube.com/starbucks" target="_blank"><i class="fab fa-youtube"></i></a>
+  				<a class= "ico" href="https://twitter.com/starbucks/" target="_blank"><i class="fab fa-twitter"></i></a>
+			</div>
+			<br>
+			<br>
+
+			<!-- Another div class consists a ul class 'footerlast' to store the last segment displayed on the footer.-->
+			<div>
+    				<ul class="footerlast">
+      					<li>Privacy Notice</li>
+      					<li>Consumer Health Privacy Notice</li>
+      					<li>Terms of Use</li>
+					<li>Do Not Share My Personal Information</li>
+					<li>CA Supply Chain Act</li>
+					<li>Accessibility</li>
+					<li>Cookie Preferences</li>
+    				</ul>
+  			</div>
+			<br>
+		</footer>
+
+		<!-- A p class 'pfooter' is used to store the last text element displayed in the index page. -->
+		<p class = "pfooter"> © 2024 Starbucks Coffee Company. All rights reserved. </p>
+		
+
+	</body>
+</html
